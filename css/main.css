@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+header nav {
+  background: #1abc9c;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+}
+header .progreso {
+  width: 100%;
+  height: 15px;
+  background: #b7c2b7;
+}
+header .progreso .barra {
+  background: #17528d;
+  height: 6px;
+  width: 10%;
+}
+
+.text-container {
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+/*# sourceMappingURL=main.css.map */
